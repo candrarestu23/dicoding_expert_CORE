@@ -27,8 +27,7 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/candrarestu23/dicoding_expert_CORE.git", :tag => "#{spec.version}" }
   spec.framework = "UIKit"
   spec.source_files = "Core/**/*.{swift}"
-  spec.exclude_files = "Classes/Exclude"
-
+  spec.dependency 'RxSwift', '~> 6.2.0'
   spec.swift_version = "5.0"
 
 end
