@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.framework = "UIKit"
   spec.source_files = "Core/**/*.{swift}"
   spec.dependency 'RxSwift', '~> 6.2.0'
-  spec.dependency 'Realm', '~> 10.17.0'
+  spec.dependency 'RealmSwift', '~> 10.17.0'
   spec.swift_version = "5.0"
 
 end
