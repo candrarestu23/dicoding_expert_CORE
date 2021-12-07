@@ -19,4 +19,3 @@ public protocol LocaleDataSource {
     func removeGame(from id: Int) -> Observable<Bool>
     func removeAllGames() -> Observable<Bool>
 }
-

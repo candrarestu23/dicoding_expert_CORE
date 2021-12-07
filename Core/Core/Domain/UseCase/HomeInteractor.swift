@@ -11,8 +11,7 @@ import RxSwift
 public struct HomeInteractor<Response, Request, R: Repository>: HomeUseCase
 where
 R.Response == Response,
-R.Request == Request
-{
+R.Request == Request {
     public typealias Response = Response
     public typealias Request = Request
     

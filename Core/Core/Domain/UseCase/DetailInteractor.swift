@@ -31,5 +31,4 @@ R.Request == Request {
         _repository.removeFromFavorite(id)
     }
     
-    
 }
